@@ -43,7 +43,7 @@ with open("NitroCodes.txt") as txtwriter:
             time.sleep(600)
         else:
         	print(r.status_code," 不可用 | {} ".format(line.strip("\n")))
-        	time.sleep(3)
+        	time.sleep()
             
    
         	
